@@ -22,7 +22,7 @@ def read_hospital_data(csv_file):
                     hospital_data[country] = {}
                 kvsdvhhskdk
                 
-                #Store deaths in the corresponding hospital
+                  #Store deaths in the corresponding hospital
                 hospital_data[country][hospital_id] = {
                     'deaths': int(deaths_2022) if deaths_2022.isdigit() else 0
                 }
