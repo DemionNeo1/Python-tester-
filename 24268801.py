@@ -20,6 +20,7 @@ def read_hospital_data(csv_file):
                 
                 if country not in hospital_data:
                     hospital_data[country] = {}
+                kvsdvhhskdk
                 
                 #Store deaths in the corresponding hospital
                 hospital_data[country][hospital_id] = {
