@@ -21,7 +21,7 @@ def read_hospital_data(csv_file):
                 if country not in hospital_data:
                     hospital_data[country] = {}
                 
-                #Store deaths in the corresponding hospital
+                  #Store deaths in the corresponding hospital
                 hospital_data[country][hospital_id] = {
                     'deaths': int(deaths_2022) if deaths_2022.isdigit() else 0
                 }
