@@ -161,7 +161,7 @@ def read_txt_file(txt_file, hospital_ids):
                 print(f"Warning: Unable to process line: '{line}'. Error: {e}")
 
     return cancer_data
-#Variance formula
+#Variance Equation
 def calculate_variance(admissions):
     n = len(admissions)
     if n < 2:
