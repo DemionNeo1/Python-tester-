@@ -6,7 +6,7 @@ def read_hospital_data(csv_file):
 
     try:
         with open(csv_file, 'r') as file:
-            # Read the header
+            # Reads the header
             header = file.readline().strip().split(',')
             country_index = header.index('country')
             hospital_id_index = header.index('hospital_ID')
@@ -162,7 +162,7 @@ def read_txt_file(txt_file, hospital_ids):
                 print(f"Warning: Unable to process line: '{line}'. Error: {e}")
 
     return cancer_data
-#Variance Equation
+#Variance Formula
 def calculate_variance(admissions):
     n = len(admissions)
     if n < 2:
